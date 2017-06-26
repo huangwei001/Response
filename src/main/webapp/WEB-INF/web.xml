@@ -4,4 +4,24 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>TestResponse1</servlet-name>
+    <servlet-class>com.test.hw.TestResponse1</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>TestResponse2</servlet-name>
+    <servlet-class>com.test.hw.TestResponse2</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>TestResponse1</servlet-name>
+    <url-pattern>/servlet/TestResponse1</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>TestResponse2</servlet-name>
+    <url-pattern>/servlet/TestResponse2</url-pattern>
+  </servlet-mapping>
 </web-app>
